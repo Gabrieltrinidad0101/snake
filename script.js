@@ -10,7 +10,7 @@ const gameBoard = document.getElementById("game-board")
 function main(currerTime){
     if(gameOver){
         if(confirm("You lost")){
-            window.location = "/"
+            window.location = "https://gabrieltrinidad0101.github.io/snake/"
         }
         return
     }
